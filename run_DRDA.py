@@ -23,7 +23,7 @@ def run_RL(item,Candidate_Paths):
         step = 0
         print("迭代：", episode)
         print("_______________________________")
-        clock = 0  # 系统时钟
+        clock = 0  
         item_idx = 0  # item索引
         delay_time = []  # 记录延时
         drop_item = []  # 记录阻塞的item
